@@ -3,11 +3,37 @@
 <html>
 
 <head>
+	 <title>Accessible Web Page</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <header role="heading">
+        <h1>Accessible Web Page</h1>
+    </header>
+
+    <nav role="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <img src="example.jpg" alt="An example image" role="img">
+        <p>A brief description of the image goes here.</p>
+    </section>
+
+    <section>
+        <h2>List Example</h2>
+        <ul role="list">
+            <li role="listitem">Item 1</li>
+            <li role="listitem">Item 2</li>
+            <li role="listitem">Item 3</li>
+        </ul>
+    </section>
     <script type="text/javascript" src="./script.js">
 </script>
 
